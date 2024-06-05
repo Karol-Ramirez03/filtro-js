@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 100vw;
+    min-height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr 7fr ;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 2/3;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    background-color:rgba(35, 59, 51, 0.401);
+
+}
+.contenedor_listas{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.li{
+    text-decoration: none;
+}
+.lista{
+    background-color:rgb(33, 47, 42);
+    height: 100vh;
+    width: 100%;
+
+}
+.divMasa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+button{
+    background-color: black;
+    color: white;
+}
+.frmMasa{
+    background-color:rgba(33, 47, 42, 0.329);
+border-radius: 5px;
+padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 9px;
+}
+.inp{
+    width: 100%;
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
